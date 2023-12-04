@@ -1,7 +1,7 @@
 # Ruadapt
 Репозиторий, куда будут выкладываться большие языковые модели, адаптированные на русский язык.
 
-[Alt text](adaptation2.drawio.png?raw=true "Title")
+![plot](adaptation2.drawio.png)
 
 # Models
 Адаптированная LLaMa-2 7B

@@ -4,10 +4,11 @@
 ![plot](adaptation2.drawio.png)
 
 # Models
-Адаптированная LLaMa-2 7B
+## LLaMa-2
+1) Адаптированная LLaMa-2 7B
 https://huggingface.co/rccmsu/ruadapt_llama2_7b_v0.1
 
-Инструктивная адаптированная LLaMa-2 7B на датасетах Saiga
+2) Инструктивная адаптированная LLaMa-2 7B на датасетах Saiga
 https://huggingface.co/rccmsu/ruadapt_saiga2_7b_v0.1
 
 # Paper 

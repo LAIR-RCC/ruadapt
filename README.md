@@ -1,6 +1,8 @@
 # Ruadapt
 Репозиторий, куда будут выкладываться большие языковые модели, адаптированные на русский язык.
 
+[Alt text](adaptation2.drawio.png?raw=true "Title")
+
 # Models
 Адаптированная LLaMa-2 7B
 https://huggingface.co/rccmsu/ruadapt_llama2_7b_v0.1

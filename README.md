@@ -11,6 +11,13 @@ https://huggingface.co/rccmsu/ruadapt_llama2_7b_v0.1
 2) Инструктивная адаптированная LLaMa-2 7B на датасетах Saiga
 https://huggingface.co/rccmsu/ruadapt_saiga2_7b_v0.1
 
+## Mistral
+1) Частично адаптированная Mistral 7B (возникли проблемы после 0.8 эпохи).
+https://huggingface.co/rccmsu/ruadapt_mistral_7b_v0.1
+
+2) Инструктивная адаптированная Mistral 7B на датасетах Saiga
+https://huggingface.co/rccmsu/ruadapt_mistral_saiga_7b_v0.1
+
 # Paper 
 Препринт: https://arxiv.org/pdf/2312.02598.pdf
 

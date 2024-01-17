@@ -1,0 +1,32 @@
+torchrun  --nproc_per_node=16 --rdzv_endpoint=localhost:29501 train_trainer.py \
+--model_name_or_path llama2_7b_darulm_unigram_init_tie_16_11_23 \
+--train_file darulm_full/train.json \
+--validation_file darulm_full/val.json \
+--block_size 256 \
+--preprocessing_num_workers 32 \
+--output_dir outputs/llama2_7b_darulm_unigram_tie_2e_16_11_23/ \
+--overwrite_output_dir \
+--do_train \
+--do_eval \
+--evaluation_strategy steps \
+--per_device_train_batch_size 6 \
+--per_device_eval_batch_size 6 \
+--learning_rate 2e-05 \
+--weight_decay 0.1 \
+--adam_beta1 0.9 \
+--adam_beta2 0.95 \
+--adam_epsilon 1e-05 \
+--num_train_epochs 2 \
+--lr_scheduler_type linear \
+--warmup_steps 0 \
+--load_best_model_at_end \
+--logging_steps 100 \
+--save_steps 20000 \
+--save_total_limit 2 \
+--fp16 \
+--fp16_opt_level O3 \
+--fp16_full_eval \
+--gradient_accumulation_steps 2 \
+--eval_steps 1000 \
+--deepspeed deepspeed_llama.json \
+--ddp_timeout 3600

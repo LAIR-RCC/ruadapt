@@ -15,3 +15,6 @@ https://huggingface.co/rccmsu/ruadapt_saiga2_7b_v0.1
 Препринт: https://arxiv.org/pdf/2312.02598.pdf
 
 Tikhomirov, M. M., Chernyshev D. I. Impact of Tokenization on LLaMa Russian Adaptation, Proceedings of Ivannikov ISPRAS Open Conference (2023)
+
+# Pretraining dataset
+darulm состоит из 43 GB, основан на https://huggingface.co/datasets/IlyaGusev/rulm с дополнительными шагами чистки и предобработки.
